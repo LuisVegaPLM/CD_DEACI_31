@@ -1,0 +1,365 @@
+
+    body {
+        background-color: #ffffff;
+		margin-bottom: 40px;
+		 
+		 
+		margin-right: 25px;
+		background-color: rgba(255,255,255,0.8);
+        border-radius: 0.6em;
+	    overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+ 
+
+.titulo {
+        font-family: 'alegreya', Arial, sans-serif; 
+        text-align: center;
+        font-size: 28px;
+        color: #1f3462; /*#1c2e57;   #682e1a; #8E2323; #233a6d;*/
+        font-weight: bold;
+        line-height: 28px;
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,9)), color-stop(50%, rgba(0,0,0,.6)), to(rgba(0,0,0,2)));
+        -webkit-border-image: -webkit-linear-gradient(top left, rgba(172, 172, 172, 0.9) 0%, rgba(250, 239, 161, 0.1) 20%);
+        border-image-slice: 3;
+    }
+
+.tituloInd {
+        font-family: 'alegreya', Arial, sans-serif; 
+        text-align: center;
+        font-size: 28px;
+        color: #8E2323; 
+        font-weight: bold;
+        line-height: 28px;
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,9)), color-stop(50%, rgba(0,0,0,.6)), to(rgba(0,0,0,2)));
+        -webkit-border-image: -webkit-linear-gradient(top left, rgba(172, 172, 172, 0.9) 0%, rgba(250, 239, 161, 0.1) 20%);
+        border-image-slice: 3;
+    }
+
+.lab {
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+		padding-left: 15px;
+		font-weight:500;
+    }
+ 
+
+ .letra_clientes {
+        color: #af3900;
+        font-family: 'alegreya', Arial, sans-serif; 
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 80px;
+        text-transform: uppercase;
+        margin: 0 0 1px;
+        padding: 0 0 2px;
+        border-radius: 3px;
+        text-decoration: none;
+         color: #FF7F24; 
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,9)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,2)));
+        -webkit-border-image: -webkit-linear-gradient(top left, rgba(172, 172, 172, 0.9) 0%, rgba(250, 239, 161, 0.1) 100%);
+        border-image-slice: 3; 
+    }
+
+ .letra_clientesC {
+		height: 40px;
+  		width: 40px;
+ 		display: table-cell;
+  		text-align: center;
+  		font-size:25px;
+  		vertical-align: middle;
+  		border-radius: 50%;
+  		background: #94a0a9; /*#fcab71;*/
+	 	color: #f6fbfd;
+	 	font-family: 'alegreya', Arial, sans-serif; 
+}
+
+ .letra_genericos {
+        color: #2F4F4F; /*#8E2323;*/
+        font-family: 'alegreya', Arial, sans-serif; 
+        font-size: 21px;
+        line-height: 70px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        text-decoration: none; 
+	 	font-weight: 600;
+    }
+
+.ind {
+       	font-family: 'alegreya', Arial, sans-serif; 
+        font-size: 20px;
+        text-transform: uppercase;
+		padding-left: 30px; 
+        color: #003333; /*#554B43; */
+    }
+
+
+.ind:hover {
+     text-decoration: none;
+     color: #996600; 
+  }
+
+
+.aux-hrefCli{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	/*background: #A5978D;#e4e5e7;*/
+    height: auto;
+    /*line-height: 5px;*/
+    width: 100%;
+    display: -webkit-box;
+    border-bottom: 1px dotted #44494e;
+    color: #443c35; /*#554B43;#889199;*/
+    /*text-transform: uppercase;
+    font-weight: 800;*/
+    font-size: 16px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    margin: 0px;
+    word-wrap: normal;
+    text-align: justify;
+    padding: 14px;
+    float:left;
+	font-weight: 500;
+}
+
+.aux-hrefCli:hover
+{
+	background: #afa39a; /*#9f9f9f; #d88a38; #ed800c;*/
+	color: #efecea;
+}
+
+.aux-hrefCli:visited {
+     text-decoration: none;
+     color: #663300;
+     font-weight: bold;
+   }
+
+.aux-hrefPSC{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	/*background: #A5978D;#e4e5e7;*/
+    height: auto;
+    /*line-height: 5px;*/
+    width: 100%;
+    display: -webkit-box;
+    border-bottom: 1px dotted #44494e;
+    color: #443c35; /*#554B43;#889199;*/
+    /*text-transform: uppercase;
+    font-weight: 800;*/
+    font-size: 15px;
+    letter-spacing: 0px;
+    cursor: default;
+    transition: all 0.7s ease;
+    margin: 0px;
+    word-wrap: normal;
+    text-align: justify;
+    padding: 14px;
+    float:left;
+}
+
+ 
+
+.aux-hrefP{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	/*background: #A5978D;#e4e5e7;*/
+    height: auto;
+    /*line-height: 5px;*/
+    width: 100%;
+    display: -webkit-box;
+    border-bottom: 1px dotted #44494e;
+    color: #443c35; /*#554B43;#889199;*/
+    /*text-transform: uppercase;
+    font-weight: 800;*/
+    font-size: 16px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    margin: 0px;
+    word-wrap: normal;
+    text-align: justify;
+    padding: 14px;
+    float:left;
+}
+
+.aux-hrefP:hover
+{
+	background: #afa39a; /*#DDD7D3; #E8E5E2;#E8E5E2;#9f9f9f; #d88a38; #ed800c;*/
+	color: #efecea; /*#A6988E;*/
+}
+
+
+ 
+
+.aux-hrefP:visited {
+     text-decoration: none;
+     color: #663300;
+     font-weight: bold;
+   }
+
+
+
+
+.aux-hrefSec{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    height: auto;
+    width: 100%;
+    color: #443c35;  /*#554B43; #003333;   #889199;#465b6b;*/
+    font-size: 16px;
+    cursor: pointer;
+    text-align: justify;
+    line-height: 40px;
+	font-weight: 100;
+	padding-left: 40px;
+
+}
+
+.aux-hrefSec:hover
+{
+	/*background: #afa39a; #9f9f9f; #d88a38; #ed800c;*/
+	color: #9a7f47;  /*#003333; #4e88a4;-#9a7f47;#663318;*/
+	text-decoration: none;
+}
+
+ 
+
+
+
+.letters
+{
+	 font-family: 'alegreya', Arial, sans-serif;
+	 font-size: 26px;
+	 margin-bottom: 10px;
+	 font-weight: bold;
+	 color: #ffffff; /*#dfdad6;*/
+}
+
+.producto {
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+    }
+
+
+/********************************************************************/
+
+    .pf_sec8_estado {
+        font-family: 'alegreya', Arial, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 27px;
+        color: #2F4F4F;   /*#587286; #1f607f; #236B8e;*/
+        text-transform: uppercase;
+       
+    }
+
+    .subsectionEstado { 
+ 
+    	font-family:  "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+ 		border-bottom: 1px solid transparent;
+        border-image: linear-gradient(to right, #8e9194,white, white, white) 95 stretch;
+        border-image-slice: 8%;
+		font-size: 20px;
+        font-weight: 600;
+        line-height: 35px;
+		color: #587286;
+		 
+    }
+
+	.company {
+        font-family:'alegreya', Arial, sans-serif;
+        font-size: 19px;
+        color: #8E2323;
+        font-weight: bold;
+        text-transform: uppercase;
+		line-height: 30px; 
+}
+
+	.secciones {
+        font-family:'alegreya', Arial, sans-serif;
+        font-size: 19px;
+        color: #465b6b;
+        font-weight: bold;
+        text-transform: uppercase;
+		line-height: 30px; 
+		padding-bottom: 20px;
+}
+
+	.seccionesSub {
+        font-family:"alegreya", Arial, sans-serif;
+        font-size: 20px;
+        color: #96705c; /*#bc8c73;  #2f4f4f; #465b6b;*/
+        font-weight: bold;
+        text-transform: uppercase;
+		line-height: 30px;
+		
+} 
+ 
+
+    .direccion {
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+        font-size: 16px; 
+    }
+
+.linksEstado
+{
+	color: #003333;
+	font-size: 20px; 
+	font-family: 'alegreya', Arial, sans-serif;
+	padding-left: 30px;
+}
+
+.linksEstado:hover
+{
+	color: #996600; 
+}
+
+a
+{
+	color: #4e88a4; /*#236B8E;*/
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #387999;
+	/*font-weight: 500;*/
+}
+
+
+
+.iconoT {
+    
+    font-size: 20px;
+	color: #64bb58;
+	vertical-align: middle;
+}
+
+.iconoE {
+    
+    font-size: 19px;
+	color: #eec838;
+	vertical-align: middle;
+}
+
+.iconoF {
+    
+    font-size: 18px;
+	color: #305068;
+	vertical-align: middle;
+}
+
+.iconoW {
+    
+    font-size: 19px; 
+	vertical-align: middle;
+	color: #505050;
+}
+
+.iconoFlecha {
+    
+    font-size: 22px;
+	color: #467a93; /*#305068;*/
+	padding-right: 15px;
+	/*vertical-align: middle;*/
+}

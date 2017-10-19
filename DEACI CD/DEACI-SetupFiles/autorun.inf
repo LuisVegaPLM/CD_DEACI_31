@@ -1,0 +1,7 @@
+[autorun]
+label = DEACI
+open = autorun.exe [open][1] "DEACI.exe"
+icon = autorun.exe
+
+[Installed]
+ProductCode = {E6A1F1CD-1AC0-45C3-AA49-525275914C72}
